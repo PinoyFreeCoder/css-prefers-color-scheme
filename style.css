@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 40px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html { background:  black;  color: white; }
+}
+
+@media (prefers-color-scheme: light) {
+  html { background: white; color:  #555; }
+}
